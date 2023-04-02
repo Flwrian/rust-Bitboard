@@ -1,9 +1,7 @@
 /**
  * This is a chess engine written in Rust
  * This program will be used to play chess an program an AI. It will use the best optimization possible such as BitBoard etc...
- * This program will be used to learn Rust and to learn how to program an AI
- * Each piece will be represented by a u8 which will contain the type of piece and the color.
- * The board will be represented by a 8x8 array of u8
+ * This program will be used to learn Rust and chess programming
 */
 
 const NORTH_MASK: u64 = 0x000000000000FF00;
